@@ -14,20 +14,20 @@ Have the following installed:
 
 ## Installing
 
-### Folder structure
-..\csod-project\
-    \ENV\
-    \code-automation    <-- this is created after you clone it
-    
-    
 Create a folder anywhere on your machine, name it: *csod-project*
-
-Open cmd.exe in that folder and clone the project to local repository
+Open cmd.exe in that *csod-project* folder and clone the project to local repository
 ```
 git clone https://github.com/unfor19/csod-automation/
 ```
 
+#### Current file structure ####
+..\csod-project\code-automation
+
 Install necessary requirements with pip
+```
+pip install -r requirements.txt
+```
+Let me know if you encounter any issues with this step.
 
 Modify the variables in csod_CONSTANTS.py
 ```
@@ -39,12 +39,9 @@ MY_USERNAME = "admin"
 MY_PASSWORD = "adminPassword"
 ```
 
+## Getting Started
+
 Adjust the code according to your needs by editing: csod_edit_lo.py
-
-
-```
-Give examples
-```
 
 ## Built With
 
