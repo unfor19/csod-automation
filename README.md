@@ -6,6 +6,7 @@ This app will assist you in automating tasks in CornerStone On-Demand.
 ## Prerequisites
 
 In order to master this project you need to have a have prior knowledge in Python, HTML and JavaScript.
+
 Have the following installed:
 
 * Python v3.6 and above - [Download](https://www.python.org/downloads/)
@@ -14,22 +15,39 @@ Have the following installed:
 
 ## Installing
 
+#### Cloning repository to local machine
+
 Create a folder anywhere on your machine, name it: *csod-project*
-Open cmd.exe in that *csod-project* folder and clone the project to local repository
+Open Command-Prompt (Terminal) in that *csod-project* folder and clone the project to local repository
 ```
 git clone https://github.com/unfor19/csod-automation/
 ```
 
 #### Current file structure ####
+```
 ..\csod-project\code-automation
-
-Install necessary requirements with pip
 ```
-pip install -r requirements.txt
-```
-Let me know if you encounter any issues with this step.
 
-Modify the variables in csod_CONSTANTS.py
+#### Creating a new Python virtual environment
+Still in Command-Prompt (Terminal) in the same folder *csod-project*, create a new virtual environment.
+The name of the folder will be: *ENV*
+**Note***: The module *venv* comes out-of-the box with Python v3.6 and above.
+```
+python -m venv ENV
+```
+
+#### Activate virtual environment ####
+Assuming we are currently in the *csod-project* folder, then:
+```
+C:\Users\my_user\Documents\csod-project>ENV\Scripts\activate
+(ENV) C:\Users\my_user\Documents\csod-project>
+```
+
+Install necessary requirements with pip - Let us know if you encounter any erorrs.
+The installed packages will be available only in the *ENV* virtual environment.
+``` (ENV) C:\Users\my_user\Documents\csod-project>pip install -r requirements.txt ```
+
+#### Modify the constants in csod_CONSTANTS.py ####
 ```
 # URL
 MY_PORTAL_URL = "https://my-portal.csod.com"
