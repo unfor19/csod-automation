@@ -18,33 +18,45 @@ Have the following installed:
 #### Cloning repository to local machine
 
 Create a folder anywhere on your machine, name it: *csod-project*
+
 Open Command-Prompt (Terminal) in that *csod-project* folder and clone the project to local repository
 ```
 git clone https://github.com/unfor19/csod-automation/
 ```
 
-#### Current file structure ####
+#### Current folder structure ####
 ```
-..\csod-project\code-automation
+C:\Users\my_user\Documents\csod-project\csod-automation\
 ```
 
 #### Creating a new Python virtual environment
 Still in Command-Prompt (Terminal) in the same folder *csod-project*, create a new virtual environment.
+
 The name of the folder will be: *ENV*
+
 **Note***: The module *venv* comes out-of-the box with Python v3.6 and above.
 ```
 python -m venv ENV
 ```
 
+#### Current folder structure ####
+```
+C:\Users\my_user\Documents\csod-project\csod-automation\
+C:\Users\my_user\Documents\csod-project\ENV\
+```
+
 #### Activate virtual environment ####
 Assuming we are currently in the *csod-project* folder, then:
+
 ```
 C:\Users\my_user\Documents\csod-project>ENV\Scripts\activate
 (ENV) C:\Users\my_user\Documents\csod-project>
 ```
 
 Install necessary requirements with pip - Let us know if you encounter any erorrs.
-The installed packages will be available only in the *ENV* virtual environment.
+
+**Note***: The installed packages will be available only in the *ENV* virtual environment.
+
 ``` (ENV) C:\Users\my_user\Documents\csod-project>pip install -r requirements.txt ```
 
 #### Modify the constants in csod_CONSTANTS.py ####
