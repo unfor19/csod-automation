@@ -71,6 +71,16 @@ MY_PASSWORD = "adminPassword"
 
 ## Getting Started
 
+#### Activate virtual environment ####
+Assuming we are currently in the *csod-project* folder, then:
+
+```
+C:\Users\my_user\Documents\csod-project>ENV\Scripts\activate
+(ENV) C:\Users\my_user\Documents\csod-project>
+```
+
+#### Adjusting the code ####
+// TODO
 Adjust the code according to your needs by editing: csod_edit_lo.py
 
 ## Built With
