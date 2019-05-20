@@ -53,11 +53,11 @@ C:\Users\my_user\Documents\csod-project>ENV\Scripts\activate
 (ENV) C:\Users\my_user\Documents\csod-project>
 ```
 
-Install necessary requirements with pip - Let us know if you encounter any erorrs.
+#### Install necessary requirements with pip ####
 
 ``` (ENV) C:\Users\my_user\Documents\csod-project>pip install -r requirements.txt ```
 
-**Note**: The installed packages will be available only in the *ENV* virtual environment.
+**Note**: The installed packages will be available only for the *ENV* virtual environment.
 
 #### Modify the constants in csod_CONSTANTS.py ####
 ```
