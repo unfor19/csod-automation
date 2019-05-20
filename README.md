@@ -1,6 +1,12 @@
 # csod-automation
 
-This app will assist you in automating tasks in CornerStone On-Demand.
+This project will assist you in automating tasks in CornerStone On-Demand.
+
+#### Currently developed processes ####
+
+* Batch update Learning Objects metadata in *Course Catalog*
+* Batch replace values of Learning Objects metadata in *Course Catalog*
+* Batch update Session in *ILT Management*
 
 
 ## Prerequisites
