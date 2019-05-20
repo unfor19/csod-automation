@@ -38,7 +38,7 @@ The name of the folder will be: *ENV*
 
 **Note**: The module *venv* comes out-of-the box with Python v3.6 and above.
 ```
-python -m venv ENV
+C:\Users\my_user\Documents\csod-project\python -m venv ENV
 ```
 
 ##### Current folder structure #####
