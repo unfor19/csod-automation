@@ -34,7 +34,7 @@ Still in Command-Prompt (Terminal) in the same folder *csod-project*, create a n
 
 The name of the folder will be: *ENV*
 
-**Note***: The module *venv* comes out-of-the box with Python v3.6 and above.
+**Note**: The module *venv* comes out-of-the box with Python v3.6 and above.
 ```
 python -m venv ENV
 ```
@@ -55,9 +55,9 @@ C:\Users\my_user\Documents\csod-project>ENV\Scripts\activate
 
 Install necessary requirements with pip - Let us know if you encounter any erorrs.
 
-**Note***: The installed packages will be available only in the *ENV* virtual environment.
-
 ``` (ENV) C:\Users\my_user\Documents\csod-project>pip install -r requirements.txt ```
+
+**Note**: The installed packages will be available only in the *ENV* virtual environment.
 
 #### Modify the constants in csod_CONSTANTS.py ####
 ```
