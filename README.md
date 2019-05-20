@@ -23,7 +23,7 @@ Create a folder anywhere on your machine, name it: *csod-project*
 
 Open Command-Prompt (Terminal) in that *csod-project* folder and clone the project to local repository
 ```
-git clone https://github.com/unfor19/csod-automation/
+C:\Users\my_user\Documents\csod-project\>git clone https://github.com/unfor19/csod-automation/
 ```
 
 ##### Current folder structure #####
@@ -38,7 +38,7 @@ The name of the folder will be: *ENV*
 
 **Note**: The module *venv* comes out-of-the box with Python v3.6 and above.
 ```
-C:\Users\my_user\Documents\csod-project\python -m venv ENV
+C:\Users\my_user\Documents\csod-project\>python -m venv ENV
 ```
 
 ##### Current folder structure #####
