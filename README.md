@@ -49,8 +49,9 @@ Give examples
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE
-* [Python](https://www.python.org)
+* [Python](https://www.python.org) - Programming language for automation
 * [Selenium](https://www.seleniumhq.org/) - Browser automation framework
+* JavaScript - Manipulating HTML objects
 
 ## Authors
 
